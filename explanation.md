@@ -50,6 +50,6 @@ reqs = ["gym", "school", "store"]
 3 // at index 3, the farthest you'd have to walk to reach a gym, a school, or a store is 1 block; at any other index, you'd have to walk farther
 
 ### Approach
--A map with the blocks' distances for each requirement is drawn by dynamic programming. This is done by finding the difference between the indexes of the current block and the block with the requirement.
--Using this map we find the block with smallest maximum distance for all requirements. We first find the maximum distance for any requirement in all the blocks and then taking the one with the smalled distance.
--The simpler code makes the code understandable and maintainable. It is also efficient without any unecessary calculations.
+- A map with the blocks' distances for each requirement is drawn by dynamic programming. This is done by finding the difference between the indexes of the current block and the block with the requirement.
+- Using this map we find the block with smallest maximum distance for all requirements. We first find the maximum distance for any requirement in all the blocks and then taking the one with the smalled distance.
+- The simpler code makes the code understandable and maintainable. It is also efficient without any unecessary calculations.
